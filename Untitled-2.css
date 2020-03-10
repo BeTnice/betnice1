@@ -1,0 +1,119 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0
+}
+#wrapper{
+	height: 1151px;
+	width: 965px;
+	margin: 0 auto;
+}
+.header{
+	height: 170px;
+	width: 965px;
+}
+.header .logo{
+	height: 170px;
+	width: 345px;
+	background: white;
+	float: left;
+}
+.header .logo img{
+	margin-top:45px;
+}
+.header .menu{
+	height: 170px;
+	width: 620px;
+	float: right;
+}
+.header .menu .top-menu{
+	height: 70px;
+	width: 620px;
+	text-align: right;
+}
+.header .menu .top-menu img{
+	width: 30px;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.header .menu .bot-menu{
+	height: 55px;
+	width: 620px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+.nav{
+	list-style: none;
+	margin-left: 60px;
+}
+.nav li{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top:20px;
+}
+.nav li a{
+	color: black;
+	text-decoration: none;
+	font-size: 17px;
+}
+/*Header*/
+.content{
+	height:845px;
+	width: 965px;
+}
+.content .banner{
+	height:667px;
+	width: 965px;
+	background: grey;
+}
+.content .title{
+	height:105px;
+	width: 965px;
+	padding-top:20px
+}
+.title h1{
+	color: grey;
+	width: 965px;
+	height: 80px;
+	background: #DBD7D7;
+	line-height: 80px;
+	text-align: center;
+}
+.content .project{
+	height:245px;
+	width: 965px;
+	background: grey
+}
+.content .project .box{
+	height:196px;
+	width: 230px;
+	background: #1DAECC;
+	float: left;
+	margin-left: 10px;
+}
+/*Content*/
+.footer{
+	height: 100px;
+	width: 965px;
+	background: #2135AB;
+	padding-top: 35px;
+}
+.footer .content-ft{
+	height: 55px;
+	width: 965px;
+	background: #093F3F;
+	border-top:1px solid black;
+	border-bottom: 1px solid black;
+}
+.footer .content-ft .left-content-ft{
+	height:55px;
+	width: 610px;
+	background: #7E5858;
+	float: left
+}
+.footer .content-ft .right-content-ft{
+	height:55px;
+	width: 355px;
+	background: blue;
+	float: right
+}
