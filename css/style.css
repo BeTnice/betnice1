@@ -1,7 +1,19 @@
 /* CSS Document */
+@font-face {
+  font-family: font-tahoma;
+  src: url(../font/tahoma.ttf);
+}
+
 *{
 	margin: 0;
 	padding: 0
+}
+a{
+	text-decoration: none;
+	font-family: 'Inter', sans-serif;
+}
+h1{
+	font-family: 'Dancing Script', cursive;
 }
 #wrapper{
 	height: 1151px;
@@ -79,41 +91,63 @@
 	line-height: 80px;
 	text-align: center;
 }
-.content .project{
-	height:245px;
+.content .projects{
+	height:280px;
 	width: 965px;
-	background: grey
+	
 }
-.content .project .box{
-	height:196px;
+.projects h2{
+	color: #DFDFDF;
+	border-bottom: 1px solid #B3B3B3;
+	padding-bottom: 12px;
+}
+.content .projects .box{
+	height:176px;
 	width: 230px;
 	background: #1DAECC;
 	float: left;
 	margin-left: 10px;
+	margin-top:20px;
+	text-align: center;
+	padding-top:20px;
 }
+
 /*Content*/
 .footer{
-	height: 100px;
+	height: 90px;
 	width: 965px;
-	background: #2135AB;
-	padding-top: 35px;
+	
+	padding-top: 45px;
 }
 .footer .content-ft{
 	height: 55px;
 	width: 965px;
-	background: #093F3F;
 	border-top:1px solid black;
 	border-bottom: 1px solid black;
 }
 .footer .content-ft .left-content-ft{
 	height:55px;
-	width: 610px;
-	background: #7E5858;
+	width: 550px;
+	
 	float: left
 }
 .footer .content-ft .right-content-ft{
 	height:55px;
-	width: 355px;
-	background: blue;
+	width: 415px;
+
 	float: right
+}
+.menu-footer{
+	list-style: none;
+}
+.menu-footer li{
+	display: inline-block;
+	margin-left: 25px;
+	margin-top:15px;
+}
+.menu-footer li a{
+	color: black;
+}
+.clearfix{
+	clear: both;
 }
